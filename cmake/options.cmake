@@ -55,7 +55,7 @@ add_feature_info("PostgreSQL PointCloud plugin" BUILD_PLUGIN_PGPOINTCLOUD
     "read/write PostgreSQL PointCloud objects")
 
 option(BUILD_PLUGIN_RIVLIB
-    "Choose if RiVLib support should be built" FALSE)
+    "Choose if RiVLib support should be built" TRUE)
 add_feature_info("RiVLib plugin" BUILD_PLUGIN_RIVLIB
     "read data in the RXP format")
 
