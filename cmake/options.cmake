@@ -60,7 +60,7 @@ add_feature_info("RiVLib plugin" BUILD_PLUGIN_RIVLIB
     "read data in the RXP format")
 
 option(BUILD_PLUGIN_RDBLIB
-    "Choose if rdblib support should be built" FALSE)
+    "Choose if rdblib support should be built" TRUE)
 add_feature_info("rdblib plugin" BUILD_PLUGIN_RDBLIB
     "read data in the RDB format")
 
